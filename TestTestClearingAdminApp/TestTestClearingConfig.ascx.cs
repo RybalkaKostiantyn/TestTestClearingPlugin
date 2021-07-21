@@ -91,5 +91,21 @@ namespace TestTestClearingAdminApp
         {
             return new ValidationResult(true);
         }
+
+        protected void CheckBoxDbBound_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBoxDbBound.Checked)
+            {
+                PanelSqlSettings.Visible = true;
+            }
+            else
+            {
+                PanelSqlSettings.Visible = false;
+            }
+        }
+        protected void ButtonCheckSqlQuery_Click(object sender, EventArgs e)
+        {
+            return;
+        }
     }
 }
