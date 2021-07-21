@@ -81,3 +81,7 @@ C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingCustomerApp\o
 C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingCustomerApp\obj\Debug\TestTestClearingCustomerApp.dll
 C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingCustomerApp\obj\Debug\TestTestClearingCustomerApp.pdb
 C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingCustomerApp\obj\Debug\TestTestClearingCustomerApp.csproj.AssemblyReference.cache
+C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingCustomerApp\bin\Newtonsoft.Json.dll
+C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingCustomerApp\bin\TestTestClearingCommonLogic.dll
+C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingCustomerApp\bin\TestTestClearingCommonLogic.pdb
+C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingCustomerApp\bin\Newtonsoft.Json.xml

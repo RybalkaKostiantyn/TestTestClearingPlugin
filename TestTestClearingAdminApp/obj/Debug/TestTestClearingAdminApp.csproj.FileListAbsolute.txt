@@ -99,3 +99,5 @@ C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingAdminApp\obj\
 C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingAdminApp\obj\Debug\TestTestClearingAdminApp.dll
 C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingAdminApp\obj\Debug\TestTestClearingAdminApp.pdb
 C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingAdminApp\obj\Debug\TestTestClearingAdminApp.csproj.AssemblyReference.cache
+C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingAdminApp\bin\TestTestClearingCommonLogic.dll
+C:\Users\Gamer\source\repos\TestTestClearingPlugin\TestTestClearingAdminApp\bin\TestTestClearingCommonLogic.pdb

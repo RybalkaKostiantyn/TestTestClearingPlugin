@@ -44,6 +44,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -71,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="TestTestClearingDataEntry.ascx" />
+    <Content Include="TestTestClearingPluginWsApi.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +88,9 @@
     <Compile Include="TestTestClearingDataEntry.ascx.designer.cs">
       <DependentUpon>TestTestClearingDataEntry.ascx</DependentUpon>
     </Compile>
+    <Compile Include="TestTestClearingPluginWsApi.asmx.cs">
+      <DependentUpon>TestTestClearingPluginWsApi.asmx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="deployment\deploy.cmd" />
@@ -92,6 +101,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestTestClearingCommonLogic\TestTestClearingCommonLogic.csproj">
+      <Project>{319ef82c-d70d-4f97-adcf-fea6fe1c3dfe}</Project>
+      <Name>TestTestClearingCommonLogic</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
